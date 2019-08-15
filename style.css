@@ -7,6 +7,32 @@ margin: 0;
 background: rgba(0,0,0,0.5);
 min-height: 100vh;   
 }
+.col{
+width: 300px;
+}
+.preview img{
+width: 100%
+}
 .intro{
+position: absolute;
+top:14px;
+left:70px;
 color:white;
+}
+.bottom{
+background: rgba(0,0,0,0.6)
+padding: 10px;
+position: relative;
+}
+.avatar{
+width: 50px;
+height: 50px;
+overflow: hidden;
+border-radius: 50%; 
+}
+.avatar img{
+width:100%;
+}
+.chanel_name{
+margin-bottom: 10px;
 }
