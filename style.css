@@ -20,6 +20,12 @@ justify-content: space-around;
 width: 280px;
 display: inline-block;
 margin-bottom: 30px;
+transition: all 0.5s;
+}
+.col:hover{
+cursor: pointer;
+box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.5);
+-webkit-filter:brightness(1.5);
 }
 .preview img{
 width: 100%
@@ -47,4 +53,8 @@ width:100%;
 }
 .chanel_name{
 margin-bottom: 10px;
+white-space: nowrap;
+text-overflow: ellipsis;
+overflow: hidden;
+width: 200px;
 }
