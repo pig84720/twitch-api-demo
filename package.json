@@ -1,0 +1,25 @@
+{
+  "name": "works",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stylus": ".\\node_modules\\.bin\\stylus"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pig84720/works.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pig84720/works/issues"
+  },
+  "homepage": "https://github.com/pig84720/works#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.4.1",
+    "stylus": "^0.54.5"
+  }
+}
