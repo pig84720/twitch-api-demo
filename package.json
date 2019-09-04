@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/pig84720/works#readme",
   "dependencies": {
+    "curl": "^0.1.4",
     "express": "^4.17.1",
     "jquery": "^3.4.1",
     "stylus": "^0.54.5"
