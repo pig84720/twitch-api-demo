@@ -46,6 +46,7 @@ let sendHttpRequest = (callback) => {
   let request = new XMLHttpRequest();
   isLoading = true;
   request.open("GET", targetUrl);
+  request.setRequestHeader('Accept', 'application/vnd.twitchtv.v5+json')
   request.onload = () => {
     data = JSON.parse(request.responseText);
     callback(null, data);
